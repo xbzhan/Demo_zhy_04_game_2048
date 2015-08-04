@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="5dip"
+    android:background="@drawable/bg_game">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        
+				android:layout_marginBottom="3dip" android:onClick="OnMainActivity" />
+        <Button android:id="@+id/start_game" android:layout_width="193dip"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:text="start_game" android:textColor="#FF292066"
+				android:textSize="17sp" android:padding="8dip" android:background="@drawable/button_style1"
+				android:layout_marginBottom="3dip" android:onClick="OnMainActivity" />
+			<Button android:id="@+id/score_board" android:layout_width="193dip"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:text="score_board" android:textColor="#FF292066"
+				android:textSize="17sp" android:padding="8dip" android:background="@drawable/button_style2"
+				android:layout_marginBottom="3dip" />
+			<Button android:id="@+id/options" android:layout_width="193dip"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:text="options" android:textColor="#FF292066"
+				android:textSize="17sp" android:padding="8dip" android:background="@drawable/button_style3"
+				android:layout_marginBottom="3dip" />
+			<Button android:id="@+id/how_to_play" android:layout_width="193dip"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:text="how_to_play" android:textColor="#FF292066"
+				android:textSize="17sp" android:padding="8dip" android:background="@drawable/button_style4"
+				android:layout_marginBottom="3dip" 
+				android:onClick="OnPlayWay"/>
+		
+			<Button android:id="@+id/exit" android:layout_width="193dip"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:text="exit" android:textColor="#FF292066"
+				android:textSize="17sp" android:padding="8dip" android:background="@drawable/button_style5"
+				android:layout_marginBottom="3dip" 
+				android:onClick="OnExit"/>"
+       
+    </LinearLayout>
+
+</FrameLayout>

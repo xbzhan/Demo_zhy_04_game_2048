@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:background="#EE82EE"
+    >
+
+    <com.zhy.game2048.view.Game2048Layout
+        android:id="@+id/id_game2048"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shuijing"
+        android:padding="10dp" >
+    </com.zhy.game2048.view.Game2048Layout>
+
+    <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@id/id_game2048"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="20dp"
+          android:background="#EEE4DA"
+          android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/id_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Score: 0"
+            android:textColor="#ff0000"
+            android:textSize="30sp"
+            android:textStyle="bold" 
+            android:background="@drawable/button_7"
+            />
+      
+    </LinearLayout>
+  
+	
+</RelativeLayout>
+        
